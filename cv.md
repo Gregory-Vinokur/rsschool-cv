@@ -8,14 +8,14 @@ ___
 
 ## About Me
 ___
-I am 27 years old. I was working as a content manager four years. Today I am seraching for a new job. 
+I am 27 years old. I was working as a content manager for four years. Today I am searching for a new job. 
 I want to become a frontend-developer and make something in web by my own, instead of using interface that made by other developers. 
 
 ## Skills
 ___
 * HTML
 * CSS
-* Basic JavaScript
+* JavaScript
 * React
 
 ## Code Example

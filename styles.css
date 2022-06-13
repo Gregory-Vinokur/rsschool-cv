@@ -176,7 +176,7 @@ section:hover:target {
   background-color: #f3a632;
 }
 
-#section-title {
+.section-title {
   display: inline;
   border-bottom: 3px solid #f9dd94;
 }
@@ -189,7 +189,7 @@ section pre {
   font-size: large;
 }
 
-#nav-link-project {
+.nav-link-project {
   position: relative;
   padding: 0 12px;
   text-decoration: none;
@@ -199,7 +199,7 @@ section pre {
   color: black;
 }
 
-#nav-link-project::after {
+.nav-link-project::after {
   content: "";
   position: absolute;
   left: 12px;
@@ -211,7 +211,7 @@ section pre {
   transition: 0.5s;
 }
 
-#nav-link-project:hover::after {
+.nav-link-project:hover::after {
   opacity: 1;
   animation-name: slidein;
   animation-duration: 1s;

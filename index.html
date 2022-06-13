@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gregory Vinokur CV</title>
+    <link href="./styles.css" rel="stylesheet" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon-16x16.png"
+    />
+  </head>
+  <body>
+    <header class="info-header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#about_me" class="nav-link">About Me</a>
+          </li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#code" class="nav-link">Code Example</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#languages" class="nav-link">Languages</a></li>
+          <li><a href="#project" class="nav-link">Project</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="info">
+        <img src="./assets/img/Photo2.jpg" alt="My photo" class="avatar" />
+
+        <div class="info-text">
+          <h1>Gregory Vinokur</h1>
+          <h2>Future Frontend Developer</h2>
+        </div>
+        <aside>
+          <h2 id="contacts">Contacts</h2>
+          <ul>
+            <li class="contact__block">
+              <div class="contact__image contact__image_github"></div>
+              <div>
+                <a
+                  href="https://github.com/Gregory-Vinokur"
+                  target="_blank"
+                  class="nav-link"
+                  >GitHub</a
+                >
+              </div>
+            </li>
+            <li class="contact__block">
+              <div class="contact__image contact__image_discord"></div>
+              <div>
+                <a
+                  href="https://discordapp.com/users/846313594583777290/"
+                  target="_blank"
+                  class="nav-link"
+                  >Discord</a
+                >
+              </div>
+            </li>
+            <li class="contact__block">
+              <div class="contact__image contact__image_telegram"></div>
+              <div>
+                <a
+                  href="https://t.me/Gregory_Vinokur"
+                  target="_blank"
+                  class="nav-link"
+                  >Telegram</a
+                >
+              </div>
+            </li>
+            <li class="contact__block">
+              <div class="contact__image contact__image_map"></div>
+              <div>
+                <a
+                  href="https://www.google.ru/maps/place/Казань,+Респ.+Татарстан/@55.7954219,48.9332226,11z/data=!3m1!4b1!4m5!3m4!1s0x415ead2b7caccd99:0x7fcb77b9b5ad8c65!8m2!3d55.7878914!4d49.1233492"
+                  target="_blank"
+                  class="nav-link"
+                  >Russia, Kazan</a
+                >
+              </div>
+            </li>
+          </ul>
+        </aside>
+      </div>
+      <div class="container">
+        <section id="about_me">
+          <h2 class="section-title">About Me</h2>
+          <p>
+            I am 27 years old. I was working as a content manager for four
+            years.
+          </p>
+
+          <p>
+            Now I am searching for a new job. I want to become a
+            frontend-developer and make something in web by my own instead of
+            using interface that made by other developers.
+          </p>
+        </section>
+
+        <section id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+          </ul>
+        </section>
+        <section id="code">
+          <h2 class="section-title">Code Example</h2>
+          <pre><code>
+  const asyncFn = async () => { return 'Success!' }
+
+  asyncFn().then(value => console.log(value))
+</code></pre>
+        </section>
+        <section id="education">
+          <h2 class="section-title">Education</h2>
+          <p>
+            Bachelor degree in Kazan National Research Technical University
+            named after A.N. Tupolev as designer of electronic means.
+          </p>
+        </section>
+        <section id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul>
+            <li>Russian - native speaker</li>
+            <li>English - B1 (Intermediate)</li>
+          </ul>
+        </section>
+        <section id="project">
+          <h2 class="section-title">Project</h2>
+          <p>
+            <a
+              class="nav-link-project"
+              href="https://Gregory-Vinokur.github.io/rsschool-cv/cv"
+              target="_blank"
+              >CV.md</a
+            >
+          </p>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <span
+          >2022
+          <a
+            class="nav-link-project"
+            target="_blank"
+            href="https://github.com/Gregory-Vinokur"
+            >Gregory-Vinokur</a
+          ></span
+        >
+      </div>
+      <div class="footer-container">
+        <a href="https://rs.school/js/" target="_blank">
+          <img
+            src="./assets/svg/rs_school_js.svg"
+            width="172"
+            height="64"
+            alt="RS School"
+          />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
